@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Kwitter Social App</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="kwitter.js"></script>
+  <link rel="stylesheet" href="kwitter.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  .jumbotron {
+    background-color: #f4511e;
+    color: #fff;
+    background-size: cover;
+  }
+
+  body {
+    background-color:#f4511e;
+  }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <br>
+  <br>
+  <h1>Kwitter</h1> 
+  <p>Sign Up</p> 
+  <form class="form-inline">
+      <input type="email" id="username_input" class="form-control" size="50" placeholder="Username">
+      <br>
+      <br>
+      <br>
+    <div class="input-group-btn">
+        <button type="button" id="login_btn" class="btn btn-danger" onclick="addUser()">Get Started</button>
+    </div>
+  </form>
+</div>
+</body>
+</html>
